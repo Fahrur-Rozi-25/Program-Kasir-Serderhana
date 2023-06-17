@@ -1,13 +1,13 @@
 package dataUser;
 
 public class saldoUser {
-    private int saldo = 20000;
+    private int saldoUser;
 
     public int getSaldo() {
-        return saldo;
+        return saldoUser;
     }
 
     public void setSaldo(int saldo) {
-        this.saldo = saldo;
+        saldoUser = saldo;
     }
 }

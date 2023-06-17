@@ -16,7 +16,8 @@ public class RealProject {
 
         MenuMakanan.MenuUtama();
 
-        System.out.println("Masukkan Pilihan Anda");
+        System.out.println("Masukkan Pilihan Anda: ");
+        System.out.println("'Pastikan Tulisan Anda Sama Dengan Nama Makanan'");
         var inputuser = scanner.nextLine();
         System.out.println("Your Input : "+inputuser);
 

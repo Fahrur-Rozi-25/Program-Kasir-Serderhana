@@ -1,14 +1,18 @@
 package utils;
 
+
+import makanan.*;
+
 public class MenuMakanan {
 
     public static void MenuUtama(){
+        makanan nasiGoreng = new nasiGoreng();
+        makanan ayamBakar = new ayamBakar();
         System.out.println(
-                "\t\tHAloo Gais\n"
-                        +"\n-----1 mie goreng ----- harga = "+ HargaMakanan.mieGoreng
-                        +"\n-----2 mie ayam -----"
-                        +"\n-----3 ayam goreng -----"
-                        +"\n-----4 ayam bakar -----"
+                "\t\t--MENU MAKANAN DI SINI--\n"
+                        +"\n-----1 "+nasiGoreng.NamaMakanan()+" ----- harga = "+nasiGoreng.HargaMakanan()
+                        +"\n-----2 "+ayamBakar.NamaMakanan()+" ----- harga = "+ayamBakar.HargaMakanan()
+
         );
     }
 
