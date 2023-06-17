@@ -19,7 +19,7 @@ public class TopUpSaldo {
                 int topup = scanner.nextInt();
                 System.out.println("Berhasil Topup senilai + Rp."+topup);
                 saldoUser.setSaldo(topup);
-                System.out.println(saldoUser.getSaldo());
+                System.out.println("Saldo Anda Saat Ini Yaitu Rp."+saldoUser.getSaldo());
                 return topup;
             case "batal" :
                 System.out.println("Anda membatalkan pembelian");

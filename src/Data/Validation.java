@@ -15,7 +15,7 @@ public class Validation {
         if (saldoUser.getSaldo() <= hargaMakanan) {
             System.out.println("Saldo Anda Kurang Silahkan Topup saldo terlebih dahulu");
         int saldoSekarang = TopUpSaldo.isiSaldo();
-            System.out.println(saldoSekarang);
+
             if (saldoSekarang >= hargaMakanan) {
                 System.out.println("Tadi anda ingin membeli : "+namaMakanan);
                 System.out.println("Ketik 'yakin' jika ingin melanjutkan beli");
