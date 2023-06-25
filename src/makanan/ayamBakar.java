@@ -3,7 +3,7 @@ package makanan;
 public class ayamBakar implements makanan{
     @Override
     public String NamaMakanan() {
-        return "Ayam Bakar";
+        return "ayam bakar";
     }
 
     @Override

@@ -17,7 +17,7 @@ public class Validation {
         int saldoSekarang = TopUpSaldo.isiSaldo();
 
             if (saldoSekarang >= hargaMakanan) {
-                System.out.println("Tadi anda ingin membeli : "+namaMakanan);
+                System.out.println("Tadi anda ingin membeli : "+namaMakanan+" seharga Rp."+hargaMakanan);
                 System.out.println("Ketik 'yakin' jika ingin melanjutkan beli");
                 System.out.println("Ketik 'batal' jika ingin membatalkan");
 
@@ -25,6 +25,7 @@ public class Validation {
                 switch (Pilihan) {
                     case "yakin":
                         System.out.println("sukses membeli : " +namaMakanan);
+                        System.out.println("seharga Rp."+hargaMakanan);
                         Object uuid = IDGenerator.UUIDGenerator();
                         System.out.println("Kode Pembelian : "+uuid);
                         int totalSaldo = saldoSekarang - hargaMakanan;
